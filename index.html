@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <style>
+  
+img {
+
+    border-radius: 6px ;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 72px;
+    width: 561px;
+    height: 374px;
+    float: left;
+   
+   
+
+    /* padding-left: 200px;
+    padding-top: 300px; */
+}
+h3{
+    font-size:  1.75rem;
+    color: #0b64a4;
+    font-family: sans-serif;
+    letter-spacing: 0.25rem;
+    font-weight: bold
+    
+       
+}
+h4{
+  color:   #102a42;
+  font-size: 1rem;
+  letter-spacing: 0.25rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.25rem;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  display: block;
+
+  
+}
+p{
+    color: #48647f;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.countdown-boxes {
+display: flex;
+margin-bottom: 30px;
+}
+
+.countdown-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    font-size: 2rem;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #063251;
+    margin-right: 10px;
+    margin-bottom: 0.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing:0.25rem;
+    line-height: 1;
+    
+}
+section {
+    margin-top: 72px;
+    margin-left: 696px;
+    position: absolute;
+    margin-right: 10px;
+    
+   
+    
+}
+.Days {
+        margin-top: 358px; 
+        margin-left: 718px;
+        position: absolute;
+        margin-right: 100px;
+        font-family: "Open Sans", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .Hours {
+        margin-top: 358px; 
+        margin-left: 800px;
+        position: absolute;
+        margin-right: 100px;
+        font-family: "Open Sans", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+        text-align: center;
+
+    }
+    .Mins {
+        margin-top: 358px; 
+        margin-left: 896px;
+        position: absolute;
+        margin-right: 100px;
+        font-family: "Open Sans", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .Secs {
+        margin-top: 358px; 
+        margin-left: 987px;
+        position: absolute;
+        margin-right: 100px;
+        font-family: "Open Sans", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    
+    section h3 {
+        margin-bottom: 0.75rem;
+    }
+
+    section h4 {
+        margin-top: 1rem;
+    }
+
+
+
+/* @media only screen and (max-width:620px){
+    p, h4, h3, {width: 100px; 
+    position: absolute;
+     left :20px;
+    }
+} */
+</style>
+
+   
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown-timer</title>
+</head>
+ <body>
+    <img src="my project.jpg" height="350px" width="550px">
+    <section>
+      <h3>OLD IPHONE GIVEAWAY</h3>
+      <h4>Giveaway Ends On march, 10 February 2024 At 11:30am</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit molestiae cum libero atque ut voluptate qui consectetur aliquid incidunt voluptatem quos, dolore, non commodi quaerat aliquam eligendi, quisquam totam blanditiis.</p>
+      <div id="Countdown-timerdown" class="countdown-boxes">
+        <div class="countdown-box" id="days-box"></div>
+        <div class="countdown-box" id="hours-box"></div>
+        <div class="countdown-box" id="minutes-box"></div>
+        <div class="countdown-box" id="seconds-box"></div>
+      </div>
+    </section>
+    <p class="Days">DAYS</p>
+    <p class="Hours">HOURS</p>
+    <p class="Mins">MINS</p>
+    <p class="Secs">SECS</p>
+    <script src="script.js"></script>
+    
+ </body>
+</html>
